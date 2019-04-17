@@ -175,7 +175,7 @@ int main()
 		{
 			if (currentKey != -1)
 			{
-				std::cout << "\rNote Off: " << sound.getTime() << "s                        ";
+				std::cout << "\rNote Off: " << sound.getTime() << "s";
 				adsr.NoteOff(sound.getTime());
 				currentKey = -1;
 			}
